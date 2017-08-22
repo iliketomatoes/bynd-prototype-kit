@@ -1,0 +1,18 @@
+{
+  "extends": "google",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "indent": ["error", "tab"],
+    "no-tabs": 0
+  }
+}

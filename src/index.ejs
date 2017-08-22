@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+	<meta name="author" content="<%= htmlWebpackPlugin.options.author %>">
+	<title><%= htmlWebpackPlugin.options.title %></title>
+	<% var baseHref = htmlWebpackPlugin.options.env === 'prod' ? '' : '' %>
+	<base href="<%= baseHref %>">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<!-- App's CSS is automatically injected here -->
+</head>
+<body>
+	<header>
+		<h1>Beyond prototype list</h1>
+	</header>
+	<main>
+		<!-- Add your prototype here -->
+	</main>
+	<!-- App's JS is automatically injected here -->
+</body>
+</html>

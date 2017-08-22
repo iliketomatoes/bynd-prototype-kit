@@ -1,0 +1,15 @@
+# Set default charset
+[*.{js,json,jsx, css}]
+charset = utf-8
+
+[*.{js,jsx,css}]
+indent_style = tab
+indent_size = 4
+
+[*.{config.js, html}]
+indent_style = tab
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
