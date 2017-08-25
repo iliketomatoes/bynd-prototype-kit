@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Beyond ES-6 starter kit",
   "main": "src/index.js",
+  "homepage": "https://iliketomatoes.github.io/bynd-prototype-kit/dist/",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --env=dev --progress --profile --colors",
     "build": "webpack --env=prod --progress --profile --colors --config webpack.config.js",
@@ -11,6 +12,7 @@
   "keywords": [],
   "author": "Giancarlo Soverini <giancarlo.soverini@bynd.com>",
   "license": "ISC",
+  "engines": { "node" : ">=6.9.0" },
   "devDependencies": {
     "css-loader": "^0.28.5",
     "eslint": "^4.5.0",
