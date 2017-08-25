@@ -1,5 +1,9 @@
 # Beyond's ES6 starter kit
 
+## Motivation
+
+To provide a quick foundation for prototyping front-end solutions and experiments.
+
 ## Getting started
 
 Clone the project and then install the dependencies with `npm install`.
